@@ -1,6 +1,5 @@
-// Check permutation: Given two strings, write a method to decide if one is a permutation of the other.
-
-// this is my brute force solution. Using the native JS sort solution gives it a runtime of O(n log n).
+// this is my first solution.
+// Using the native JS sort solution gives it a runtime of O(n log n).
 
 
 

@@ -1,5 +1,4 @@
 // Problem 1.1
-// Implement an algorithm to determine if a string has all unique characters.
 
 // My solution: split the string, create a hash map, and iterate through the array, creating new keys in the map for each unique letter. if the letter already exists, break the loop and return false. I believe this solution is optimal in terms of time complexity because the worst case is going through the array once.
 
@@ -7,7 +6,7 @@
 
 // In terms of space complexity, I create both an array and an object.
 
-// Possible further optimization - create a set instead of a hash map. 
+// Possible further optimization - create a set instead of a hash map.
 
 function uniqueChars(str) {
   const charArray = str.split('');
